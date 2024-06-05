@@ -10,7 +10,6 @@ function App() {
   return (
     <>
         <NavBar />
-
         <BrowserRouter>
           <Routes>
               <Route path='/' element={<Body/>}/>
