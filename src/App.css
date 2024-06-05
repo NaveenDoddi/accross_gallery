@@ -1,0 +1,42 @@
+#folder img:hover{
+  transform: scale(1.1);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+
+#card:hover #title {
+    transform: translateY(138%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    visibility: visible;
+}
+
+#title {
+    visibility: hidden;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 1rem;
+    transition: opacity 2s, transform 0.5s ease-in-out;
+    transform: translateY(100%); 
+   
+}
+
+@media only screen and (max-width: 575px) {
+  #card:hover #title {
+    transform: translateY(330%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    visibility: visible;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  #card:hover #title {
+    transform: translateY(200%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    visibility: visible;
+  }
+  
+}
