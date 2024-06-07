@@ -12,7 +12,7 @@ function App() {
         <NavBar />
         <BrowserRouter>
           <Routes>
-              <Route path='/' element={<Body/>}/>
+              <Route exact path='/' element={<Body/>}/>
               <Route path='/album' element={<Album />}/>
           </Routes>
         </BrowserRouter>
