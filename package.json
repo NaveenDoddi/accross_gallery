@@ -1,4 +1,5 @@
 {
+  "homepage": "https://naveendoddi.github.io/accross_gallery/",
   "name": "across",
   "version": "0.1.0",
   "private": true,
@@ -47,7 +48,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://naveendoddi.github.io/accross_gallery/"
+  }
 }
 
